@@ -28,7 +28,7 @@
                 <td><?= $item['id_tintuc'] ?></td>
                 <td><?= $item['tieude'] ?></td>
                 <td><?= $item['noidung'] ?></td>
-                <td><img width="50" height="50" src="/PRO1014/Techboys/upload/<?php echo $item['img']?>"></img></td>
+                <td><img width="50" height="50" src="/test/thucung1/upload/<?php echo $item['img']?>"></img></td>
                 <td><?= $item['ngaytao'] ?></td>
                 <td><?= $item['id_nguoitao']?></td>
                 <td><center><a class="btn btn-primary" href="index.php?act=suatintuc&id=<?= $item['id_tintuc'] ?>">Sửa</a>

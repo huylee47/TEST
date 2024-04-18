@@ -73,7 +73,7 @@
                                         <?php
                                             if (isset($_SESSION['user']['quyen']) && $_SESSION['user']['quyen'] == '1') {
                                             ?>
-                                                <a class="dropdown-item" href="http://localhost/pro1014/Techboys/admin/">Admin</a>
+                                                <a class="dropdown-item" href="http://localhost/test/thucung1/admin/">Admin</a>
                                             <?php
                                             }
                                             ?>

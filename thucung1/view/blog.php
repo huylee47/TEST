@@ -26,7 +26,7 @@
 					foreach ($listTinTucAll as $key => $item) {
 					?>
 					<div class="blog_post">
-							<div><img class="blog_image" src="/PRO1014/Techboys/upload/<?php echo $item['img']?>"></img></div>
+							<div><img class="blog_image" src="/test/thucung1/upload/<?php echo $item['img']?>"></img></div>
 							<div class="blog_text"><?=$item['tieude']?></div>
 							<div class="blog_button"><a href="index.php?act=chitiettintuc&&id=<?=$item['id_tintuc']?>">Đọc</a></div>
 					</div>

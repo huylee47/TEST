@@ -20,6 +20,16 @@ if(is_array($motsanpham)){
    </select>
   </div>
   <div class="mb-3">
+    <label for="" class="form-label">Màu sắc</label>
+   <select name="mausac" >
+    <?php
+    foreach($listmausac as $item){
+    ?>
+    <option value="<?php echo $item['id_mausac']?>"><?php echo $item['ten_mausac'] ?></option>
+    <?php }?>
+   </select>
+  </div>  
+  <div class="mb-3">
     <label for="" class="form-label">Tên sản phẩm</label>
     <input type="text" class="form-control" name="tensp" value="<?= $motsanpham['ten_sanpham'] ?>">
   </div>

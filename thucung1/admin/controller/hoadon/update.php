@@ -7,6 +7,6 @@ if (isset($_GET['id'])) {
     $id = $_POST['id'];
     $tinhtrang = $_POST['tinhtrang'];
     update_hoadon($id, $tinhtrang);
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=tinhtrangdon';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=tinhtrangdon';</script>";
     exit;
 }

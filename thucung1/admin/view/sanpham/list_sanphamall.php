@@ -15,6 +15,7 @@
               <th>ID Danh mục</th>
               <th>Tên sản phẩm</th>
               <th>Ảnh sản phẩm</th>
+              <th>Màu sắc</th>
               <th>Giá</th>
               <th  style="text-align: center;">Chức năng</th>
             </tr>
@@ -27,7 +28,8 @@
                 <td><?= $item['id_sanpham'] ?></td>
                 <td><?= $item['id_danhmuc'] ?></td>
                 <td><?= $item['ten_sanpham'] ?></td>
-                <td><img width="40" height="40" src="/PRO1014/Techboys/upload/<?php echo $item['img']?>"></img></td>
+                <td><img width="40" height="40" src="/test/thucung1/upload/<?php echo $item['img']?>"></img></td>
+                <td ><?= mausac_id($item['id_mausac'])  ?></td>
                 <td><?= $item['gia'] ?></td>
                 <td><center><a class="btn btn-primary" href="index.php?act=chitietsanpham&id=<?= $item['id_sanpham'] ?>">Chi tiết</a>
                 <a class="btn btn-primary" href="index.php?act=suasanpham&id=<?= $item['id_sanpham'] ?>">Sửa</a>

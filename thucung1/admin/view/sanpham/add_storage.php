@@ -34,7 +34,7 @@
   foreach ($listanh as $anh){
   ?>
   <div class="card">
-    <img width="150px" height="300px" src="/PRO1014/Techboys/upload/<?php echo $anh['ten_anh']?>" class="card-img-top" >
+    <img width="150px" height="300px" src="/test/thucung1/upload/<?php echo $anh['ten_anh']?>" class="card-img-top" >
     <a class="btn btn-primary btn-lg btn-block" href="index.php?act=xoakhoanh&id=<?= $anh['id_anh'] ?>">Xóa</a>
   </div>
   <?php }?>

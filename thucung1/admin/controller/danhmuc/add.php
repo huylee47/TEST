@@ -9,6 +9,6 @@ if (!isset($_POST['themdanhmuc'])) {
     }else{
         echo "<script>alert('Thêm danh mục sản phẩm thất bại');</script>";
     }
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=themdanhmuc';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=themdanhmuc';</script>";
     exit;
 }

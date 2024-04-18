@@ -13,7 +13,7 @@ if (isset($_POST['suatintuc'])) {
     if(isset($_FILES['hinhanh'])){
     move_uploaded_file($_FILES["hinhanh"]["tmp_name"],'../upload/'.$hinhanh);
     sua_tintuc($tieude,$noidung, $hinhanh, $id_tt);
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=listtintuc';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=listtintuc';</script>";
     exit;
 }
 }

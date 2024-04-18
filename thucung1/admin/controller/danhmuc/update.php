@@ -8,10 +8,10 @@ if (isset($_GET['id']) ) {
     $tendm = $_POST['ten'];
     update_danhmuc($id, $tendm);
     // header('Location:index.php?act=listdanhmuc');
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=listdanhmuc';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=listdanhmuc';</script>";
     exit;
 }  else {
     echo "<script>alert('Sửa danh mục thất bại');</script>";
     // header('location: index.php?act=chitiet_sanpham&id='.$id_sp);
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=listdanhmuc';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=listdanhmuc';</script>";
   }

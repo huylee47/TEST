@@ -1,3 +1,4 @@
+
 <!-- Begin Page Content -->
 <div class="container-fluid">
   <!-- Page Heading -->
@@ -27,8 +28,8 @@
               <tr>
                 <td><?= $item['id_sanpham'] ?></td>
                 <td><?= $item['ten_sanpham'] ?></td>
-                <td><img width="50" height="50" src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>"></img></td>
-                <td><?= $item['mausac'] ?></td>
+                <td><img width="50" height="50" src="/test/thucung1/upload/<?php echo $item['img'] ?>"></img></td>
+                <td ><?= mausac_id($item['id_mausac'])  ?></td>
                 <td><?= $item['gia'] ?></td>
                 <td>
                   <center><a class="btn btn-primary" href="index.php?act=chitietsanpham&id=<?= $item['id_sanpham'] ?>">Chi tiết</a>

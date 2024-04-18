@@ -24,7 +24,7 @@ if(is_array($motsanpham)){
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Ảnh</label>
-    <img width="100" height="100" src="/PRO1014/Techboys/upload/<?php echo $motsanpham['img'] ?>" alt="">
+    <img width="100" height="100" src="/test/thucung1/upload/<?php echo $motsanpham['img'] ?>" alt="">
   </div>
 
   <div class="mb-3">

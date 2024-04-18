@@ -24,7 +24,7 @@
                     <!-- <li data-image="images/single_4.jpg"><img src="images/single_4.jpg" alt=""></li>
                     <li data-image="images/single_2.jpg"><img src="images/single_2.jpg" alt=""></li>
                     <li data-image="images/single_3.jpg"><img src="images/single_3.jpg" alt=""></li> -->
-                    <li data-image="/PRO1014/Techboys/upload/<?php echo $img['ten_anh']?>"><img src="/PRO1014/Techboys/upload/<?php echo $img['ten_anh']?>" alt=""></li>
+                    <li data-image="/test/thucung1/upload/<?php echo $img['ten_anh']?>"><img src="/test/thucung1/upload/<?php echo $img['ten_anh']?>" alt=""></li>
                     <?php
                     }
                     ?>
@@ -33,7 +33,7 @@
 
             <!-- Selected Image -->
             <div class="col-lg-5 order-lg-2 order-1">
-                <div class="image_selected"> <img src="/PRO1014/Techboys/upload/<?php echo $listSanPham['img'] ?>"></div>
+                <div class="image_selected"> <img src="/test/thucung1/upload/<?php echo $listSanPham['img'] ?>"></div>
             </div>
 
             <!-- Description -->
@@ -163,7 +163,7 @@
                 $ngayTao = $date_time->format('Y-m-d');
             ?>
                 <div class="chitietbinhluan row">
-                    <div class="avatar col-1"><img class="ava" src="/PRO1014/Techboys/upload/user.png" alt=""></div>
+                    <div class="avatar col-1"><img class="ava" src="/test/thucung1/upload/user.png" alt=""></div>
                     <div class="hoten_binhluan col-2"><span><?= get_ten_theo_id($item['id_taikhoan']) ?></span> </div>
                     <div class="ngaygio_binhluan col-2"><span><?= $ngayTao ?></span></div>
                     <div class="noidung_binhluan col-5"><?= $item['noidung'] ?> </div>
@@ -209,7 +209,7 @@
                                 <!-- Recently Viewed Item -->
                                 <div class="owl-item">
                                     <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image"><img src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>" alt=""></div>
+                                        <div class="viewed_image"><img src="/test/thucung1/upload/<?php echo $item['img'] ?>" alt=""></div>
                                         <div class="viewed_content text-center">
                                             <div class="viewed_price"><?= $item['gia'] ?></div>
                                             <div class="viewed_name"><a href="index.php?act=chitiet_sanpham&id=<?= $item['id_sanpham'] ?>"><?= $item['ten_sanpham'] ?></a></div>

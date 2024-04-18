@@ -112,7 +112,7 @@
 								<div class="product_border"></div>
 								<div class="product_image d-flex flex-column align-items-center justify-content-center">
 								<a href="index.php?act=chitiet_sanpham&id=<?=$sanpham['id_sanpham']?>">
-								<img src="/PRO1014/Techboys/upload/<?php echo $sanpham['img'] ?>" alt=""></a>
+								<img src="/test/thucung1/upload/<?php echo $sanpham['img'] ?>" alt=""></a>
 									</div>
 								<div class="product_content">
 									<div class="product_price"><?=$sanpham['gia']?></div>
