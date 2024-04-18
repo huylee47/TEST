@@ -1,0 +1,102 @@
+.khungbinhluan {
+  position: relative;
+    max-height: 300px;
+    min-height: 200px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .chitietbinhluan {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+  }
+  
+  .hoten_binhluan {
+    float: left;
+    width: 20%;
+  }
+  
+  .noidung_binhluan {
+    float: left;
+    width: 40%;
+  }
+  .danhgia_binhluan{
+    float: left;
+    width: 15%;
+  }
+  .ngaygio_binhluan {
+    float: left;
+    width: 20%;
+  }
+  .avatar{
+    float: left;
+    width: 5%;
+  }
+  .ava{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .context{
+    float: left;
+    width: 100%;
+    display: block;
+  }
+  .contextl{
+    position: relative;
+
+    float: left;
+    width: 35%;
+  }
+  .log:hover{
+    color: white;
+  }
+  button:hover{
+    color: white;
+  }
+  .contextrr{
+    float: left;
+    position: relative;
+    left: 9rem;
+    width: 30%;
+  }
+  .contextr{
+    float: inline-end;
+    width: 35%;
+  }
+  .fixed{
+    width: 50rem;
+    height: 6rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    color:rgb(255, 0, 0);
+    position: relative;
+    
+  }
+  .banner .title{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    width: 50ch;
+    border-right: 3px solid #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(50) infinite alternate-reverse;
+}
+@keyframes typing{
+from{
+    width: 0ch;
+}
+}
