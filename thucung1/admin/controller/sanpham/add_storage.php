@@ -21,7 +21,7 @@ if (isset($_GET['id'])) {
     foreach ($arrayHinhAnh as $ten){
       insert_khoanh($id, $ten);
     }
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=themkhoanh&id=$id';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=themkhoanh&id=$id';</script>";
     exit;
   }
 }

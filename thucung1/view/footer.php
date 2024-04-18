@@ -88,8 +88,8 @@
                           <div class="footer_title">Chăm sóc khách hàng</div>
                           <ul class="footer_list">
                               <li><a href="index.php?act=thongtin&id=<?=$_SESSION['user']['id_taikhoan']?>">Tài khoản</a></li>
-                              <li><a href="http://localhost/PRO1014/Techboys/index.php?act=lichsumua">Theo dõi đơn hàng</a></li>
-                              <li><a href="http://localhost/PRO1014/Techboys/index.php?act=lienhe">Liên hệ hỗ trợ</a></li>
+                              <li><a href="http://localhost/test/thucung1/index.php?act=lichsumua">Theo dõi đơn hàng</a></li>
+                              <li><a href="http://localhost/test/thucung1/index.php?act=lienhe">Liên hệ hỗ trợ</a></li>
                           </ul>
                       </div>
                   </div>

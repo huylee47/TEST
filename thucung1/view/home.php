@@ -15,7 +15,7 @@
                     <h1 class="banner_text">Siêu ưu đãi </h1>
                     <div class="banner_price"><span>$999</span>$888</div>
                     <div class="banner_product_name">Điện thoại di động </div>
-                    <div class="button banner_button"><a href="http://localhost/PRO1014/Techboys/index.php?act=chitiet_sanpham&id=7">Mua Ngay</a></div>
+                    <div class="button banner_button"><a href="http://localhost/test/thucung1/index.php?act=chitiet_sanpham&id=7">Mua Ngay</a></div>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
                             <!-- Deals Item -->
                             <div class="owl-item deals_item">
                                 <div class="deals_image">
-                                    <a href="index.php?act=chitiet_sanpham&id=<?php echo $motsanpham['id_sanpham'] ?>"><img src="/PRO1014/Techboys/upload/<?php echo $motsanpham['img'] ?>" alt="" /></a>
+                                    <a href="index.php?act=chitiet_sanpham&id=<?php echo $motsanpham['id_sanpham'] ?>"><img src="/test/thucung1/upload/<?php echo $motsanpham['img'] ?>" alt="" /></a>
                                 </div>
                                 <div class="deals_content">
                                     <div class="deals_info_line d-flex flex-row justify-content-start">
@@ -186,7 +186,7 @@
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
                                             <div class="product_image d-flex flex-column align-items-center justify-content-center">
                                                 <a href="index.php?act=chitiet_sanpham&id=<?= $item['id_sanpham'] ?>">
-                                                    <img width="150px" height="120px" src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>" /></a>
+                                                    <img width="150px" height="120px" src="/test/thucung1/upload/<?php echo $item['img'] ?>" /></a>
 
                                             </div>
 
@@ -260,7 +260,7 @@
                                     <div class="bestsellers_item discount">
                                         <div class="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                                             <div class="bestsellers_image">
-                                                <img src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>" alt="" />
+                                                <img src="/test/thucung1/upload/<?php echo $item['img'] ?>" alt="" />
                                             </div>
                                             <div class="bestsellers_content">
                                                 <div class="bestsellers_category">
@@ -337,7 +337,7 @@
                                         <div class="owl-item">
                                             <div class="trends_item is_new">
                                                 <div class="trends_image d-flex flex-column align-items-center justify-content-center">
-                                                    <img src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>" alt="" />
+                                                    <img src="/test/thucung1/upload/<?php echo $item['img'] ?>" alt="" />
                                                 </div>
                                                 <div class="trends_content">
                                                     <div class="trends_category">

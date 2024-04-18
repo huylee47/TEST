@@ -8,6 +8,6 @@ if (isset($_GET['id'])&& $_GET['id']>0) {
     xoa_sanpham_id_danhmuc($_GET['id']);
     xoa_danhmuc($_GET['id']);
 }
-echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=listdanhmuc';</script>";
+echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/admin/index.php?act=listdanhmuc';</script>";
     exit;
     ?>

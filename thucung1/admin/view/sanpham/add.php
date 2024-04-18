@@ -11,7 +11,7 @@
   </div>  
   <div class="mb-3">
     <label for="" class="form-label">Màu sắc</label>
-   <select name="id_dm" >
+   <select name="mausac" >
     <?php
     foreach($listmausac as $item){
     ?>
@@ -35,6 +35,7 @@
     <label for="" class="form-label">Ghi Chú</label>
     <input type="text" class="form-control" name="ghichu">
   </div>
+  
   <div class="mb-3">
     <label for="" class="form-label">Số Lượng</label>
     <input type="text" class="form-control" name="soluong"  >

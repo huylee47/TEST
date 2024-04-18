@@ -64,7 +64,7 @@
 									<div class="text-right">
 										<input type="hidden" name="id" value="<?= $_SESSION['user']['id_taikhoan'] ?>">
 										
-										<button class="btn btn-primary" > <a style="color: #fff;" href="http://localhost/PRO1014/Techboys/index.php">Huỷ</a> </button>
+										<button class="btn btn-primary" > <a style="color: #fff;" href="http://localhost/test/thucung1/index.php">Huỷ</a> </button>
 										
 										<button type="submit" name="update" class="btn btn-primary">Cập nhật</button>
 									</div>

@@ -33,7 +33,7 @@
                 <td><?= $item['id_sanpham'] ?></td>
                 <td><?= $item['id_hoadon'] ?></td>
                 <td><?= get_ten_sanpham_by_id($item['id_sanpham']);?></td>
-                <td><img width="50" height="50" src="/PRO1014/Techboys/upload/<?= get_anh_sanpham_by_id($item['id_sanpham']);?>"></img></td>
+                <td><img width="50" height="50" src="/test/thucung1/upload/<?= get_anh_sanpham_by_id($item['id_sanpham']);?>"></img></td>
                 <td><?= $item['gia'] ?></td>
                 <td><?= $item['so_luong'] ?></td>
               </tr>

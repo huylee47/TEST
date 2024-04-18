@@ -123,5 +123,5 @@ if (isset($_SESSION['user']['quyen']) && $_SESSION['user']['quyen'] == '1') {
 
     require_once 'view/footer.php';
 } else {
-    header('location:http://localhost/PRO1014/Techboys/index.php?act=dangnhap');
+    header('location:http://localhost/test/thucung1/index.php?act=dangnhap');
 }

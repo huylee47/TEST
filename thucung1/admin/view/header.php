@@ -25,7 +25,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="http://localhost/PRO1014/Techboys/index.php">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="http://localhost/test/thucung1/index.php">
         <div class="sidebar-brand-icon">
           <i class="fa-solid fa-laptop"><i class="fa-thin fa-mobile"></i></i>
 

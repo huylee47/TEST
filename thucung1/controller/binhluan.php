@@ -12,6 +12,6 @@ if (preg_match('/[^\p{Z}\r\n]+/u', $noidungBL)) {
     header('location: index.php?act=chitiet_sanpham&id='.$id_sp);
   }else {
     echo "<script>alert('Bình luận thất bại');</script>";
-    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/index.php?act=chitiet_sanpham&id=$id_sp';</script>";
+    echo "<script type='text/javascript'>window.top.location='http://localhost/test/thucung1/index.php?act=chitiet_sanpham&id=$id_sp';</script>";
   }
 ?>
